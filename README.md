@@ -8,8 +8,7 @@
 <p>You can view the live demo [here](#). <br />*(Replace `#` with your live project link if hosted, e.g., GitHub Pages or Vercel)*</p>
 <p>---</p>
 <p>## Screenshots 📸</p>
-<p><img src="pic_trulli.jpg"</p>
-<p>### Optimized Solution<br />![Optimized Solution](path/to/your/screenshot2.png)</p>
+<p><img src="Screenshot (186).png"</p>
 <p>---</p>
 <p>## Installation ⚙️</p>
 <p>Follow these steps to run the project locally:</p>
@@ -58,12 +57,6 @@
 </ul>
 </li>
 </ul>
-<hr />
-<h2>Contributing 🤝</h2>
-<p>Contributions are welcome!<br />Feel free to fork the repository and submit a pull request.</p>
-<hr />
-<h2>License 📄</h2>
-<p>This project is licensed under the MIT License.<br />See the <a rel="noopener">LICENSE</a> file for details.</p>
 <hr />
 <h2>Acknowledgments 🙏</h2>
 <ul>
