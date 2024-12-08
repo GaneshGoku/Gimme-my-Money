@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Money Splitwise - Minimize and simplify debt transactions among a group.">
+    <title>Money Splitwise</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body class="font-roboto">
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="C:\Users\Sonwa\Gimme my Money\Image\money.png" class="w-12 h-8 rounded-full" alt="Money Splitwise Logo">
+                <span class="ml-3 text-xl">Money Splitwise</span>
+            </a>
+            <a href="../../Main.html">
+                
+            </a>
+        </div>
+    </header>
+
+    <main id="container">
+        <section id="mynetwork"></section>
+        <section id="container2">
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large"></span>
+            <div id="mynetwork2" style="display: none"></div>
+        </section>
+    </main>
+
+    <div class="mt-8">
+        <center><p>Enter the Transaction Details</p></center>
+        <center>
+            <input type="text" id="first" placeholder="Enter the ID of the first person" class="bg-gray-400 mt-6 mb-6 px-4 py-1 mx-1 border rounded-lg text-gray-700 focus:border-green-500">
+            <input type="text" id="second" placeholder="Enter the ID of the second person" class="bg-gray-400 mt-6 mb-6 px-4 py-1 mx-1 border rounded-lg text-gray-700 focus:border-green-500">
+            <input type="text" id="amount" placeholder="Enter the transaction amount" class="bg-gray-400 mt-6 mb-6 px-4 py-1 mx-1 border rounded-lg text-gray-700 focus:border-green-500">
+        </center>
+        <center>
+            <button type="button" class="bg-green-500 text-gray-100 rounded hover:bg-green-400 px-4 py-2 focus:outline-none" id="generate-graph" aria-label="Submit transaction details">Submit</button>
+            <br>
+            <button type="button" class="bg-green-500 text-gray-100 rounded hover:bg-green-400 px-4 py-2 focus:outline-none" id="solve" aria-label="Solve the debt transactions">Solve</button>
+            <br>
+            <button type="button" class="bg-green-500 text-gray-100 rounded hover:bg-green-400 px-4 py-2 focus:outline-none" id="reset" aria-label="Reset the graph">Reset</button>
+        </center>
+    </div>
+
+    <footer class="text-center mt-8 p-4 text-gray-600">
+        &copy; 2024 Money Splitwise. All Rights Reserved.
+    </footer>
+    <script src="Core.js"></script>
+</body>
+</html>
